@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.paragon_automation">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".USUARIOS" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SILOS" />
+        <activity android:name=".Enviar" />
+        <activity android:name=".REPORTES" />
+        <activity android:name=".Administracion_Usuarios" />
+        <activity android:name=".Baja_Usuarios" />
+        <activity android:name=".Crear_Usuarios" />
+        <activity android:name=".finescaner" />
+        <activity android:name=".QRCoordenada3" />
+        <activity android:name=".QRCoordenada2" />
+        <activity android:name=".QRCoordenada1" />
+        <activity android:name=".EscanerQR" />
+        <activity android:name=".ALTASILOS" />
+        <activity android:name=".BAJASILOS" />
+        <activity android:name=".MODIFICARDSILO" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2" />
+        <activity android:name=".ui.slideshow.p" />
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

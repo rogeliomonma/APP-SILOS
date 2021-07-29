@@ -1,0 +1,2 @@
+rootProject.name='PARAGON_AUTOMATION'
+include ':app'

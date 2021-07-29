@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/naturalezac"
+    android:backgroundTint="#86F8F8F8"
+    android:backgroundTintMode="src_atop"
+    tools:context=".REPORTES">
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+
+        android:layout_marginTop="60dp"
+
+        android:layout_marginEnd="48dp"
+        android:background="#28ABFA"
+        android:backgroundTint="#18AF64"
+        android:text="REGRESAR"
+        android:textColor="#F6F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendarView" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:soundEffectsEnabled="false"
+        android:text="Reportes"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="381dp"
+        android:layout_height="346dp"
+        android:layout_marginTop="68dp"
+        android:focusedMonthDateColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+</androidx.constraintlayout.widget.ConstraintLayout>

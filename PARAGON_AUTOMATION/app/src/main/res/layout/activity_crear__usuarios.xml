@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/campon"
+    android:backgroundTint="#99050505"
+    android:backgroundTintMode="src_atop"
+    tools:context=".Crear_Usuarios">
+
+    <TextView
+        android:id="@+id/textView12"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:soundEffectsEnabled="false"
+        android:text="ALTA DE USUARIOS"
+        android:textAlignment="center"
+        android:textColor="#FBF8F8"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/numO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="12dp"
+
+        android:layout_marginEnd="24dp"
+        android:hint="Num Operario"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#F6F5F5"
+        android:textColorHint="#FBF9F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <EditText
+        android:id="@+id/NombreO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+
+        android:layout_marginEnd="24dp"
+        android:hint="Nombre "
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#F1EFEF"
+        android:textColorHint="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numO" />
+
+    <EditText
+        android:id="@+id/ApellidoO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Apellido Paterno"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#FBFAFA"
+        android:textColorHint="#FBFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <EditText
+        android:id="@+id/CargoO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="152dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Cargo"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#F8F5F5"
+        android:textColorHint="#FAF8F8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <EditText
+        android:id="@+id/TurnoO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Turno"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#EDE8E8"
+        android:textColorHint="#FBF9F9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <EditText
+        android:id="@+id/turnoO"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Usuario"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#F4EFEF"
+        android:textColorHint="#FAF7F7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <EditText
+        android:id="@+id/turnoO2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="332dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Contraseña"
+        android:imeOptions="actionDone"
+        android:inputType="text|textPassword"
+        android:selectAllOnFocus="true"
+        android:textColor="#F8F3F3"
+        android:textColorHint="#FDFBFB"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <EditText
+        android:id="@+id/ApellidoM"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Apellido Materno"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:selectAllOnFocus="true"
+        android:textColor="#FBF8F8"
+        android:textColorHint="#F3F0F0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+
+    <Button
+        android:id="@+id/btnGuardadarO"
+        android:layout_width="141dp"
+        android:layout_height="35dp"
+        android:layout_gravity="start"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="396dp"
+        android:layout_marginEnd="48dp"
+        android:background="#28ABFA"
+
+        android:backgroundTint="#18AF64"
+
+        android:text="Guardar"
+        android:textColor="#F6F3F3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/NombreO" />
+</androidx.constraintlayout.widget.ConstraintLayout>
